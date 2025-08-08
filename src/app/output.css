@@ -720,6 +720,41 @@ video {
   padding-bottom: 40px;
 }
 
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.px-\[26px\] {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.px-\[27px\] {
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.px-\[23px\] {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.px-\[22px\] {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
 .pb-\[40px\] {
   padding-bottom: 40px;
 }
@@ -931,6 +966,10 @@ body {
 
   .xl\:mt-\[12px\] {
     margin-top: 12px;
+  }
+
+  .xl\:mt-\[57px\] {
+    margin-top: 57px;
   }
 
   .xl\:block {
