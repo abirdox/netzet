@@ -8,10 +8,10 @@ export const HeroSectionLeftContentFeature = (props: HeroSectionLeftContentFeatu
 
     return (
         <>
-            <h1 className="text-[25px] xl:text-[35px] xl:text-left font-bold leading-tight">
+            <h1 className="text-[25px] xl:text-[35px] xl:text-left font-bold leading-tight font-urbanist">
                 Want to Turn Social Media Into a Profitable Career?
             </h1>
-            <p className="text-[25px] xl:text-[35px] text-semi_secondary font-bold mb-[22px] xl:mb-[16px] drop-shadow" 
+            <p className="text-[25px] xl:text-[35px] text-semi_secondary font-bold mb-[22px] xl:mb-[16px] drop-shadow font-urbanist leading-tight" 
             style={{ filter: "drop-shadow(0px 4px 2px #FC004E)" }}>
                 Discover your way to success <br className="hidden xl:block" /> with Fametonic:
             </p>
