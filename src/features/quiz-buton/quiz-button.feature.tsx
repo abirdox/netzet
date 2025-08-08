@@ -7,7 +7,7 @@ export const QuizButton = (props: QuizButtonProps) => {
     const { } = props
 
     return (
-        <div className="block text-center sm:w-[313px] w-full sm:py-[30px] ">
+        <div className="block text-center xl:w-[313px] w-full xl:py-[30px] py-[40px]">
             <a href="#"
                 className="block text-white bg-primary px-auto py-3 rounded-[10px] text-[20px] font-bold"
                  style={{ filter: "drop-shadow(2px 2px 5px #00E7F9)" }}

@@ -14,22 +14,21 @@ export const HeroSection = (props: HeroSectionProps) => {
 
     return (
         <>
-            {/* <!-- Hero Section --> */}
-            <section className="flex flex-col-reverse sm:flex-row items-center justify-between">
-                {/* <!-- Left Content --> */}
-                <div className="text-center sm:text-left sm:mt-[57px] sm:w-[516px] pb-[40px]">
+            {/* Hero Section */}
+            <section className="flex flex-col-reverse items-center justify-between xl:flex-row">
+                {/* Left Content */}
+                <div className="text-center xl:text-left sm:mt-[57px] xl:w-[572px] pb-[40px] px-[20px]">
                     <HeroSectionLeftContentFeature />
-                    <div className="flex flex-col sm:flex-col-reverse">
-                        <div className="text-gray sm:text-left mt-[22px] mb-[40px]">
+                    <div className="flex flex-col xl:flex-col-reverse">
+                        <div className="text-gray xl:text-left mt-[22px] xl:mt-0 mx-[34.5px] xl:mx-0">
                             <QuizButtonInfo />
                             <CopyRightInfoComponent />
                         </div>
                         <QuizButton />
                     </div>
                 </div>
-
-                {/* <!-- Right Image --> */}
-                <div className="flex justify-end items-start">
+                {/* Right Image */}
+                <div className="flex justify-end items-start my-[-60px] z-[-1] xl:w-[820px] xl:h-[700px] xl:absolute xl:right-[20px]">
                     <HeroSectionRightContentFeature />
                 </div>
             </section>

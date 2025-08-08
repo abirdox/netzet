@@ -7,7 +7,8 @@ module.exports = {
         primary: "#FC004E",
         secondary: "#10CBE0",
         semi_secondary: "#00E7F9",
-        gray: "#ABABAB"
+        gray: "#ABABAB",
+        semi_gray: "#A9A9A9"
       },
       screens: {
         sm390: "390px",

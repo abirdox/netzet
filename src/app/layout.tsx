@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className="bg-black text-white font-sans">
         <TopBannerComponent />
-        <div className="px-[20px] xl:px-[211px]">
+        <div className="xl:px-[211px]">
           <TopNavComponent />
           {children}
         </div>
