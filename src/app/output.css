@@ -969,6 +969,14 @@ body {
     width: 100%;
   }
 
+  .xl\:w-\[570px\] {
+    width: 570px;
+  }
+
+  .xl\:w-\[560px\] {
+    width: 560px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }

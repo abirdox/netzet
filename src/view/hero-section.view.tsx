@@ -17,7 +17,7 @@ export const HeroSection = (props: HeroSectionProps) => {
             {/* Hero Section */}
             <section className="flex flex-col-reverse items-center justify-between xl:flex-row">
                 {/* Left Content */}
-                <div className="text-center xl:text-left sm:mt-[57px] xl:w-[572px] pb-[40px] px-[20px]">
+                <div className="text-center xl:text-left sm:mt-[57px] xl:w-[560px] pb-[40px] px-[20px]">
                     <HeroSectionLeftContentFeature />
                     <div className="flex flex-col xl:flex-col-reverse">
                         <div className="text-gray xl:text-left mt-[22px] xl:mt-0 mx-[34.5px] xl:mx-0">
