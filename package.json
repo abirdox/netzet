@@ -5,11 +5,12 @@
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/app/globals.css -o ./src/app/output.css --watch",
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build  && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.12.0",
     "next": "15.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0"
