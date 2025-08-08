@@ -20,7 +20,7 @@ export const HeroSection = (props: HeroSectionProps) => {
                 <div className="text-center xl:text-left xl:mt-[57px] xl:w-[560px] pb-[40px] px-[22px]">
                     <HeroSectionLeftContentFeature />
                     <div className="flex flex-col xl:flex-col-reverse">
-                        <div className="text-gray xl:text-left mt-[22px] xl:mt-0 mx-[34.5px] xl:mx-0">
+                        <div className="text-gray xl:text-left mt-[22px] xl:mt-0 mx-[32.5px] xl:mx-0">
                             <QuizButtonInfo />
                             <CopyRightInfoComponent />
                         </div>
