@@ -12,8 +12,8 @@ module.exports = {
         semi_gray: "#A9A9A9",
       },
       fontFamily: {
-        urbanist: ['var(--font-urbanist)', 'sans-serif'],
-        figtree: ['var(--font-figtree)', 'sans-serif'],
+        urbanist: ["var(--font-urbanist)", "sans-serif"],
+        figtree: ["var(--font-figtree)", "sans-serif"],
       },
       fontSize: {},
       screens: {},

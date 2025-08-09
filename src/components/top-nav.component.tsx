@@ -1,10 +1,4 @@
-export interface TopNavProps {
-
-}
-
-export const TopNavComponent = (props: TopNavProps) => {
-
-    const { } = props
+const TopNavComponent = () => {
 
     return (
         <>
@@ -33,3 +27,5 @@ export const TopNavComponent = (props: TopNavProps) => {
         </>
     )
 }
+
+export default TopNavComponent

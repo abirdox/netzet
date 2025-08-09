@@ -1,10 +1,4 @@
-export interface CopyRightInfoComponentProps {
-
-}
-
-export const CopyRightInfoComponent = (props: CopyRightInfoComponentProps) => {
-
-    const { } = props
+const CopyRightInfoComponent = () => {
 
     return (
         <p className="mt-[19px] xl:mt-[12px] text-[10px]">
@@ -12,3 +6,5 @@ export const CopyRightInfoComponent = (props: CopyRightInfoComponentProps) => {
         </p>
     )
 }
+
+export default CopyRightInfoComponent

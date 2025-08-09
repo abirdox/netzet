@@ -1,16 +1,10 @@
-import { CopyRightInfoComponent } from "@/components/copy-right-info.component"
-import { HeroSectionLeftContentFeature } from "@/features/hero-section/left-content.feature"
-import { HeroSectionRightContentFeature } from "@/features/hero-section/right-content.feature"
-import { QuizButtonInfo } from "@/features/quiz-buton/quiz-button-info.feature"
+import CopyRightInfoComponent from "@/components/copy-right-info.component"
+import HeroSectionLeftContentFeature from "@/features/hero-section/left-content.feature"
+import HeroSectionRightContentFeature from "@/features/hero-section/right-content.feature"
+import QuizButtonInfo from "@/features/quiz-buton/quiz-button-info.feature"
 import { QuizButton } from "@/features/quiz-buton/quiz-button.feature"
 
-export interface HeroSectionProps {
-
-}
-
-export const HeroSection = (props: HeroSectionProps) => {
-
-    const { } = props
+const HeroSection = () => {
 
     return (
         <>
@@ -35,3 +29,5 @@ export const HeroSection = (props: HeroSectionProps) => {
         </>
     )
 }
+
+export default HeroSection

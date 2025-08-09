@@ -1,12 +1,4 @@
-
-
-export interface TopBannerProps {
-
-}
-
-export const TopBannerComponent = (props: TopBannerProps) => {
-
-    const { } = props
+const TopBannerComponent = () => {
 
     return (
         <>
@@ -17,3 +9,5 @@ export const TopBannerComponent = (props: TopBannerProps) => {
         </>
     )
 }
+
+export default TopBannerComponent

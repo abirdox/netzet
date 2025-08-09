@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { TopNavComponent } from "@/components/top-nav.component";
-import { TopBannerComponent } from "@/components/top-banner.component";
+import TopNavComponent from "@/components/top-nav.component";
+import TopBannerComponent from "@/components/top-banner.component";
 import { Urbanist, Figtree } from "next/font/google";
 import "./output.css";
 

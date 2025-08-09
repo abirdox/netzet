@@ -1,5 +1,4 @@
-import { HeroSection } from "@/view/hero-section.view";
-import Image from "next/image";
+import HeroSection from "@/view/hero-section.view";
 
 export default function Home() {
   return (
