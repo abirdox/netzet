@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #fc004e;
+  --secondary: #10cbe0;
+  --semi-secondary: #00e7f9;
+  --gray: #ababab;
+  --semi-gray: #a9a9a9;
 }
 
 @theme inline {
@@ -16,6 +21,11 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #fc004e;
+    --secondary: #10cbe0;
+    --semi-secondary: #00e7f9;
+    --gray: #ababab;
+    --semi-gray: #a9a9a9;
   }
 }
 
@@ -25,12 +35,10 @@ body {
 }
 
 .glow-button {
-  filter: drop-shadow(2px 2px 5px var(--color-semi-secondary));
+  filter: drop-shadow(2px 2px 5px var(--semi-secondary));
 }
 
 .drop-shadow-pink {
-  filter: drop-shadow(0px 4px 2px var(--color-primary));
+  filter: drop-shadow(0px 4px 2px var(--primary));
 }
 
-
-/* filter: "drop-shadow(2px 2px 5px #00E7F9)" */

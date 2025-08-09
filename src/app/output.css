@@ -434,14 +434,6 @@ video {
   display: none;
 }
 
-:root {
-  --color-primary: #FC004E;
-  --color-secondary: #10CBE0;
-  --color-semi-secondary: #00E7F9;
-  --color-gray: #ABABAB;
-  --color-semi-gray: #A9A9A9;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -690,8 +682,7 @@ video {
 }
 
 .bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 0 78 / var(--tw-bg-opacity));
+  background-color: var(--primary);
 }
 
 .bg-gradient-to-r {
@@ -699,13 +690,13 @@ video {
 }
 
 .from-primary {
-  --tw-gradient-from: #FC004E var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(252 0 78 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: var(--primary) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .to-secondary {
-  --tw-gradient-to: #10CBE0 var(--tw-gradient-to-position);
+  --tw-gradient-to: var(--secondary) var(--tw-gradient-to-position);
 }
 
 .px-\[20px\] {
@@ -807,23 +798,19 @@ video {
 }
 
 .text-gray {
-  --tw-text-opacity: 1;
-  color: rgb(171 171 171 / var(--tw-text-opacity));
+  color: var(--gray);
 }
 
 .text-secondary {
-  --tw-text-opacity: 1;
-  color: rgb(16 203 224 / var(--tw-text-opacity));
+  color: var(--secondary);
 }
 
 .text-semi_gray {
-  --tw-text-opacity: 1;
-  color: rgb(169 169 169 / var(--tw-text-opacity));
+  color: var(--semi-gray);
 }
 
 .text-semi_secondary {
-  --tw-text-opacity: 1;
-  color: rgb(0 231 249 / var(--tw-text-opacity));
+  color: var(--semi-secondary);
 }
 
 .text-white {
@@ -839,6 +826,11 @@ video {
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #fc004e;
+  --secondary: #10cbe0;
+  --semi-secondary: #00e7f9;
+  --gray: #ababab;
+  --semi-gray: #a9a9a9;
 }
 
 @theme inline {
@@ -851,6 +843,11 @@ video {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #fc004e;
+    --secondary: #10cbe0;
+    --semi-secondary: #00e7f9;
+    --gray: #ababab;
+    --semi-gray: #a9a9a9;
   }
 }
 
@@ -860,14 +857,12 @@ body {
 }
 
 .glow-button {
-  filter: drop-shadow(2px 2px 5px var(--color-semi-secondary));
+  filter: drop-shadow(2px 2px 5px var(--semi-secondary));
 }
 
 .drop-shadow-pink {
-  filter: drop-shadow(0px 4px 2px var(--color-primary));
+  filter: drop-shadow(0px 4px 2px var(--primary));
 }
-
-/* filter: "drop-shadow(2px 2px 5px #00E7F9)" */
 
 @media (min-width: 1280px) {
   .xl\:absolute {
@@ -971,3 +966,4 @@ body {
     font-size: 35px;
   }
 }
+
