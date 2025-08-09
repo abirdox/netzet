@@ -5,7 +5,7 @@ const HeroSectionRightContentFeature = () => {
             <img
                 src="/images/phone.png"
                 alt="Phone"
-                className="xl:w-full xl:h-full xl:object-cover"
+                className="xl:w-[900px] xl:h-[920px] xl:my-[-120px] xl:object-cover"
             />
         </>
     )

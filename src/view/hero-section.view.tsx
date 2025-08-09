@@ -9,7 +9,7 @@ const HeroSection = () => {
     return (
         <>
             {/* Hero Section */}
-            <section className="flex flex-col-reverse items-center justify-between xl:flex-row mx-[0px]">
+            <section className="flex flex-col-reverse items-center justify-between xl:flex-row xl:mx-[5px] my-[-10px] xl:my-[0px]">
                 {/* Left Content */}
                 <div className="text-center xl:text-left xl:mt-[57px] xl:w-[516px] pb-[40px] px-[22px] xl:px-[0px]">
                     <HeroSectionLeftContentFeature />
@@ -22,7 +22,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 {/* Right Image */}
-                <div className="flex justify-end items-start my-[-60px] z-[-1] xl:w-[830px] xl:h-[700px] xl:absolute xl:right-[20px]">
+                <div className="flex justify-end items-start my-[-60px] z-[-1] xl:overflow-hidden xl:absolute xl:w-[666px] xl:h-[679px] xl:top-[170px] xl:right-[110px]">
                     <HeroSectionRightContentFeature />
                 </div>
             </section>

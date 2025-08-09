@@ -7,9 +7,9 @@ module.exports = {
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
-        semi_secondary: "var(--semi-secondary)",
+        'semi-secondary': "var(--semi-secondary)",
         gray: "var(--gray)",
-        semi_gray: "var(--semi-gray)",
+        'semi-gray': "var(--semi-gray)",
       },
       fontFamily: {
         urbanist: ["var(--font-urbanist)", "sans-serif"],
