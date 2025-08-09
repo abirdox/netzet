@@ -25,5 +25,12 @@ body {
 }
 
 .glow-button {
-  box-shadow: 0 0 15px var(--primary);
+  filter: drop-shadow(2px 2px 5px var(--color-semi-secondary));
 }
+
+.drop-shadow-pink {
+  filter: drop-shadow(0px 4px 2px var(--color-primary));
+}
+
+
+/* filter: "drop-shadow(2px 2px 5px #00E7F9)" */

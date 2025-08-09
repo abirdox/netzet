@@ -10,8 +10,8 @@ const NetzetButton = (props: NetzetButtonProps) => {
     return (
         <>
             <a href="#"
-                className="block text-white bg-primary px-auto py-3 rounded-[10px] text-[20px] font-bold"
-                style={{ filter: "drop-shadow(2px 2px 5px #00E7F9)" }}
+                className="block text-white bg-primary px-auto py-3 rounded-[10px] text-[20px] font-bold glow-button"
+
             >
                 {title}
             </a>
